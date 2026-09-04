@@ -1,0 +1,26 @@
+# Student Data System
+# Demonstrates Python building blocks, data types, and I/O
+print(&quot;=== Student Data System ===&quot;)
+# Input section (user provides data)
+name = input(&quot;Enter student name: &quot;) # str
+roll_no = int(input(&quot;Enter roll number: &quot;)) # int
+age = int(input(&quot;Enter age: &quot;)) # int
+marks = float(input(&quot;Enter marks: &quot;)) # float
+is_pass = marks &gt;= 40 # bool (logical expression)
+# Processing section
+percentage = (marks / 100) * 100
+# Output section
+print(&quot;\n=== Student Details ===&quot;)
+print(&quot;Name:&quot;, name)
+print(&quot;Roll Number:&quot;, roll_no)
+print(&quot;Age:&quot;, age)
+print(&quot;Marks:&quot;, marks)
+print(&quot;Percentage:&quot;, percentage)
+print(&quot;Result:&quot;, &quot;Pass&quot; if is_pass else &quot;Fail&quot;)
+# Display data types (to understand building blocks)
+print(&quot;\n=== Data Types Used ===&quot;)
+print(&quot;Type of name:&quot;, type(name))
+print(&quot;Type of roll_no:&quot;, type(roll_no))
+print(&quot;Type of age:&quot;, type(age))
+print(&quot;Type of marks:&quot;, type(marks))
+print(&quot;Type of is_pass:&quot;, type(is_pass))
