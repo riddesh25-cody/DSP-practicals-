@@ -1,0 +1,21 @@
+a = 10
+b = 5
+# Arithmetic
+print(&quot;Addition:&quot;, a + b)
+print(&quot;Division:&quot;, a / b)
+# Relational
+print(&quot;a &gt; b:&quot;, a &gt; b)
+# Logical
+print(&quot;a &gt; 5 and b &lt; 10:&quot;, a &gt; 5 and b &lt; 10)
+# Bitwise
+print(&quot;a &amp; b:&quot;, a &amp; b)
+# Assignment
+a += b
+print(&quot;Updated a:&quot;, a)
+# Membership
+list1 = [1, 2, 3, 4]
+print(&quot;2 in list1:&quot;, 2 in list1)
+# Identity
+x = 10
+y = 10
+print(&quot;x is y:&quot;, x is y)

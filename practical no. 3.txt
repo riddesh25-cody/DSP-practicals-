@@ -1,0 +1,22 @@
+# Creating a list
+numbers = [10, 20, 30, 40, 50]
+# Accessing values
+print(&quot;First element:&quot;, numbers[0])
+print(&quot;Last element:&quot;, numbers[-1])
+# Updating list
+numbers[2] = 35
+print(&quot;Updated list:&quot;, numbers)
+# Adding elements
+numbers.append(60)
+numbers.insert(1, 15)
+print(&quot;After insertion:&quot;, numbers)
+# Deleting elements
+numbers.remove(40)
+del numbers[0]
+print(&quot;After deletion:&quot;, numbers)
+# Built-in functions
+print(&quot;Length:&quot;, len(numbers))
+print(&quot;Max:&quot;, max(numbers))
+print(&quot;Min:&quot;, min(numbers))
+numbers.sort()
+print(&quot;Sorted list:&quot;, numbers)
